@@ -1,0 +1,34 @@
+[
+    {
+        "id": "high",
+        "texture": "high",
+        "bought": false,
+        "buff": null,
+        "debuff": null,
+        "price": 1
+    },
+    {
+        "id": "crack",
+        "texture": "crack",
+        "bought": false,
+        "buff": null,
+        "debuff": null,
+        "price": 2
+    },
+    {
+        "id": "trip",
+        "texture": "trip",
+        "bought": false,
+        "buff": null,
+        "debuff": null,
+        "price": 3
+    },
+    {
+        "id": "meds",
+        "texture": "meds",
+        "bought": false,
+        "buff": null,
+        "debuff": null,
+        "price": 4
+    }
+]
