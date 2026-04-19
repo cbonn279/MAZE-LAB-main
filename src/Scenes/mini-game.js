@@ -8,7 +8,7 @@ class MiniGame extends Phaser.Scene {
     
   }
   preload() {
-      this.load.audio("Press", "../assets/audio/ButtonPress.mp3");
+      //this.load.audio("Press", "../assets/audio/ButtonPress.mp3");
   }
 
   create() {  
@@ -32,7 +32,7 @@ class MiniGame extends Phaser.Scene {
 
     //health bar
     this.button.on('pointerdown', () => {
-      this.sound.play("Press");
+     // this.sound.play("Press");
 
       const lightningY = this.button.y - 24;
       this.lightningEmitter.setPosition(this.button.x, lightningY);
