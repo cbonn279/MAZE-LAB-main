@@ -8,7 +8,7 @@ class MiniGame extends Phaser.Scene {
     
   }
   preload() {
-    //  this.load.audio("Press", "../assets/audio/ButtonPress.mp3");
+      this.load.audio("Press", "../assets/audio/ButtonPress.mp3");
   }
 
   create() {  
