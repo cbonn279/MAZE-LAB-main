@@ -58,6 +58,8 @@ class Load extends Phaser.Scene{
         this.load.audio("BuyDrug", "./audio/Sbuydrug.wav");
         this.load.audio("DrugActivate", "./audio/Sdrugup.wav");
         this.load.audio("FNAFPowerOff", "./audio/FNAFPowerOff.mp3");
+        this.load.audio("PoliceSiren", "./audio/PoliceSiren.wav");
+        this.load.audio("BreakingDoor", "./audio/BreakingDoor.flac");
 
         // goal item
         this.load.image("goal", "Tfruit.png");

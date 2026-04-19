@@ -54,7 +54,7 @@ class TitleScreen extends Phaser.Scene {
                 if (!this.Maze.blackBGM.isPlaying) {
                     this.Maze.blackBGM.play();
                 }
-                this.sound.play("Press");
+                // this.sound.play("Press");
             });
 
             button.setTexture('buttonDown');
